@@ -10,7 +10,7 @@ pipeline{
     
     stage('build'){
       steps{
-        bat 'echo helllo app'
+        bat 'npm start'
       }
       
     }
